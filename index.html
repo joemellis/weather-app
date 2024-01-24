@@ -43,7 +43,7 @@
         // API and API URL
         const apiKey = "80c73df9bb32efa840373adfb21d4728";
         const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
-
+        // get our input field button and main weather image
         const searchBox = document.querySelector(".search input");
         const searchBtn = document.querySelector(".search button");
         const weatherIcon = document.querySelector(".weather-icon");
@@ -84,9 +84,6 @@
                 document.querySelector(".weather").style.display = "block";
                 document.querySelector(".error").style.display = "none";
             }
-
-
-
         }
         // add listener to the search button
         searchBtn.addEventListener("click", () => {
